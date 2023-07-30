@@ -87,7 +87,7 @@ get you moving on
         <Card sx={{backgroundColor: "#FFD700", height: "450px", marginBottom: "10px"}} >
         <Typography textAlign="center" fontFamily='Archivo' fontSize="30px" fontWeight="700" mt={5}>Industry & Applications
 </Typography>
-           <Typography textAlign="center" mt={15} fontFamily='Archivo'>
+           <Typography textAlign="center" mt={8} fontFamily='Archivo'>
 In addition to a wide variety of standard industrial Zim Energy products,
  our custom engineered specialty flanged inline solutions are used for research, testing, and other 
  high energetic-temperature applications throughout the heating space, aviation, defense, and automotive industries.</Typography>
