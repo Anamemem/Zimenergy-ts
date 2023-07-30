@@ -18,12 +18,13 @@ export default function Home() {
        
         style={{
           position: 'absolute',
-          bottom: '16px',
+         
           left: '20px',
           color: '#ffffff',
         }}
         fontFamily='Archivo'
         fontSize="18px"
+        mt={-15}
       >
        No Gibberish - Let’s get you <br />
 moving on the Right motion track
@@ -47,9 +48,7 @@ moving on the Right motion track
         >
          
 
-         <Typography fontFamily='Archivo' fontWeight="bold" color='#000000' fontSize="20px">8+</Typography> <Typography fontSize="12px" fontFamily='Archivo'  fontWeight="700">No Gibberish - Let’s <br />
-get you moving on
-          </Typography>
+         <Typography fontFamily='Archivo' fontWeight="bold" color='#000000' fontSize="20px">16+ Refferals</Typography> 
         </Box>
         <Box
           sx={{
@@ -57,10 +56,8 @@ get you moving on
            
           }}
         >
-          <Typography fontFamily='Archivo' fontWeight="bold" color='#000000' fontSize="20px">24+</Typography>
-           <Typography fontSize="12px" fontFamily='Archivo'  fontWeight="700">No Gibberish - Let’s <br />
-get you moving on
-          </Typography>
+          <Typography fontFamily='Archivo' fontWeight="bold" color='#000000' fontSize="20px">24+ Income</Typography>
+         
         </Box>
         <Box
           sx={{
@@ -68,10 +65,14 @@ get you moving on
         
           }}
         >
-           <Typography fontFamily='Archivo' fontWeight="bold" color='#000000' fontSize="20px">5+</Typography> 
+          <Stack direction="row">
+
+           <Typography fontFamily='Archivo' fontWeight="bold" color='#000000' fontSize="20px">5+    </Typography> 
            <Typography fontSize="12px" fontFamily='Archivo'  fontWeight="700">No Gibberish - Let’s <br />
 get you moving on
           </Typography>
+          </Stack>
+        
         </Box>
       </Stack>
     </Box>
@@ -87,7 +88,7 @@ get you moving on
         <Card sx={{backgroundColor: "#FFD700", height: "450px", marginBottom: "10px"}} >
         <Typography textAlign="center" fontFamily='Archivo' fontSize="30px" fontWeight="700" mt={5}>Industry & Applications
 </Typography>
-           <Typography textAlign="center" mt={8} fontFamily='Archivo'>
+           <Typography textAlign="center" mt={8} fontFamily='Archivo' color="#000000" fontSize="17px" fontWeight="400">
 In addition to a wide variety of standard industrial Zim Energy products,
  our custom engineered specialty flanged inline solutions are used for research, testing, and other 
  high energetic-temperature applications throughout the heating space, aviation, defense, and automotive industries.</Typography>
