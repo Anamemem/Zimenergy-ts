@@ -12,7 +12,7 @@ const Dashboard = () => {
           display: 'flex',
           justifyContent: 'center',     
           alignItems: 'center',
-          width: "374px",
+          width: "324px",
           marginTop: "43px",
         };
                
