@@ -10,12 +10,12 @@ const Dashboard = () => {
           background: '#FFD700',
           minHeight: '50vh', // Set the height to fill the screen vertically
           display: 'flex',
-          justifyContent: 'center',
+          justifyContent: 'center',     
           alignItems: 'center',
-          width: "320px",
+          width: "374px",
           marginTop: "43px",
         };
-      
+               
   return (
     <div>
       <ResponsiveDrawer />
