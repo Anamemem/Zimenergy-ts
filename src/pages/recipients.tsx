@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
-import { Paper, Avatar, Typography, Grid, Box } from '@mui/material';
-import ResponsiveDrawer from "../component/Drawer";
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Icon from '@mui/material/Icon';
-import Divider from '@mui/material/Divider';
+import {  Typography, Grid, Box } from '@mui/material';
+import ResponsiveDrawer from "../../src/component/drawer";
 // import DashedCard from "../component/dashcard";
 import CottageIcon from '@mui/icons-material/Cottage';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
