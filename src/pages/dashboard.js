@@ -13,7 +13,7 @@ const Dashboard = () => {
           justifyContent: 'center',     
           alignItems: 'center',
           width: "100%",
-          marginTop: "43px",
+          marginTop: "55px",
         };
                
   return (
