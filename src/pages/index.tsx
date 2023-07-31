@@ -2,34 +2,13 @@ import Image from 'next/image'
 import React from 'react';
 import { Box, Typography, Stack, Grid, Card, CardContent, Button } from '@mui/material';
 import CardCollection from "../../src/component/productCard"
+import BackgroundWithBoxAndText from "../../src/component/firstSec"
 
 export default function Home() {
   return (
-    <><Box width="100%" height="auto" position="relative">
-      <img
-        src="backgroundzin.png"
-        alt="Your Image"
-        style={{
-          width: '100%',
-          height: '100vh',
-          objectFit: 'cover',
-        }} />
-    <Typography
-       
-        style={{
-          position: 'absolute',
-         
-          left: '20px',
-          color: '#ffffff',
-        }}
-        fontFamily='Archivo'
-        fontSize="18px"
-        mt={-15}
-      >
-       No Gibberish - Let’s get you <br />
-moving on the Right motion track
-      </Typography>
-    </Box>
+    <>
+    <BackgroundWithBoxAndText />
+
     
     <Box
     height={{xs:"70vh", md: "40vh", sm: "40vh"}}
@@ -77,10 +56,11 @@ get you moving on
       </Stack>
     </Box>
 
-    <Grid container  alignItems="center" justifyContent="center" >
+    <Grid container style={{backgroundColor: "#EDEDED"}}  
+     alignItems="center" justifyContent="center" >
       {/* First image */}
       <Grid item xs={12} md={3}>
-        <img src="/image 22.png" alt="Image 1" style={{ width: '100%', height: 'auto' }} />
+        <img src="/image 23.png" alt="Image 1" style={{ width: '100%', height: 'auto' }} />
       </Grid>
 
       {/* Card */}
@@ -88,7 +68,7 @@ get you moving on
         <Card sx={{backgroundColor: "#FFD700", height: "450px", marginBottom: "10px"}} >
         <Typography textAlign="center" fontFamily='Archivo' fontSize="30px" fontWeight="700" mt={5}>Industry & Applications
 </Typography>
-           <Typography textAlign="center" mt={8} fontFamily='Archivo' color="#000000" fontSize="17px" fontWeight="400">
+           <Typography textAlign="center" mt={8} fontFamily='Archivo' color="#000000" fontSize="14px" fontWeight="400">
 In addition to a wide variety of standard industrial Zim Energy products,
  our custom engineered specialty flanged inline solutions are used for research, testing, and other 
  high energetic-temperature applications throughout the heating space, aviation, defense, and automotive industries.</Typography>
@@ -112,7 +92,7 @@ In addition to a wide variety of standard industrial Zim Energy products,
 
       {/* Second image */}
       <Grid item xs={12} md={3}>
-        <img src="image 23.png" alt="Image 2" style={{ width: '100%', height: 'auto' }} />
+        <img src="image 22.png" alt="Image 2" style={{ width: '100%', height: 'auto' }} />
       </Grid>
     </Grid>
     <Box
